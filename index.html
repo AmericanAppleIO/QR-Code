@@ -4,44 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
   
   <title>Frontend Mentor | QR code component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     @import url('https://fonts.googleapi.com/css2?family=Outfit&display=swap');
 
     body {
       background-color: hsl(212, 45%, 89%);
+      align-items: center;
+      display: flex;
+      flex-direction:column;
+      flex-wrap: wrap;
     }
-    .h1 {
+    h3 {
       font-family: 'Outfit', sans-serif;
       font-weight: 700;
       color: hsl(0, 0, 0);
+      position: center;
     }
-    .p {
+    p {
       font-family: 'Outfit', sans-serif;
       font-size: 15px;
       color: hsl(220, 15%, 55%);
-    }
-    .flex-container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-
+      position: center;
     }
   </style>
 </head>
 <body>
-<div class="flex-container">
-
-  <ul>
-    <li><img src="default.png"></li>
-<li class="h1">Improve your front-end skills by building projects</li>
-<li class="p">Scan the QR code to visit Frontend Mentor and take your coding skills to next level</li>
-  </ul>
-</div>
+  <img src="default.png" alt="QR Code">
+  <h3>Improve your front-end skills by building projects</h3>
+  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to next level</p>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.americanapple.io">AmericanAppleIO</a>.
