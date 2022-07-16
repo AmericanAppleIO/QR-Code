@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-  
+
   <title>Frontend Mentor | QR code component</title>
   <style>
     @import url('https://fonts.googleapi.com/css2?family=Outfit&display=swap');
@@ -17,10 +17,27 @@
       flex-direction:column;
       flex-wrap: wrap;
     }
+    .container {
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      width: 400px;
+      height: auto;
+      margin: 150px auto 0;
+      position: relative;
+      border-radius: 25px;
+      text-align: center;
+    }
+    img{
+      display: block;
+      width: 90%;
+      margin: 20px;
+      border-radius: 20px;
+    }
     h3 {
       font-family: 'Outfit', sans-serif;
       font-weight: 700;
-      color: hsl(0, 0, 0);
+      color: black;
       position: center;
     }
     p {
@@ -29,15 +46,19 @@
       color: hsl(220, 15%, 55%);
       position: center;
     }
+    a {
+      color: inherit;
+    }
   </style>
 </head>
 <body>
-  <img src="default.png" alt="QR Code">
-  <h3>Improve your front-end skills by building projects</h3>
-  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to next level</p>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="https://www.americanapple.io">AmericanAppleIO</a>.
-  </div>
+<div class="container">
+<img src="default.png" alt="QR Code">
+<h3>Improve your front-end skills by building projects</h3>
+  <p>Scan the QR code to visit Frontend Mentor and take your coding skills to next level</p></div>
+<p>
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+  Coded by <a href="https://www.americanapple.io" target="_blank">AmericanAppleIO</a>.
+</p>
 </body>
 </html>
