@@ -10,15 +10,38 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    @import url('https://fonts.googleapi.com/css2?family=Outfit&display=swap');
+
+    body {
+      background-color: hsl(212, 45%, 89%);
+    }
+    .h1 {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 700;
+      color: hsl(0, 0, 0);
+    }
+    .p {
+      font-family: 'Outfit', sans-serif;
+      font-size: 15px;
+      color: hsl(220, 15%, 55%);
+    }
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+    }
   </style>
 </head>
 <body>
-<img src="default.png">
+<div class="flex-container">
 
-Hello World!
-  
+  <ul>
+    <li><img src="default.png"></li>
+<li class="h1">Improve your front-end skills by building projects</li>
+<li class="p">Scan the QR code to visit Frontend Mentor and take your coding skills to next level</li>
+  </ul>
+</div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.americanapple.io">AmericanAppleIO</a>.
